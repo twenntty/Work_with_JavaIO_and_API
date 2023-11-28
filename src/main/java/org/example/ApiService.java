@@ -93,8 +93,7 @@ public class ApiService {
     }
 
     public void fetchDataAndGenerateExcel() {
-        Map<String, Object> dataFromApi = fetchDataFromApi();
-        createExcelFile(dataFromApi);
+
     }
 
     public static void main(String[] args) {
